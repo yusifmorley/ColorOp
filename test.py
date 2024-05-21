@@ -1,3 +1,4 @@
-import colorsys
+from h_color import HColor
 
-print(colorsys.rgb_to_hsv(0,255,0))
+hc = HColor(1, 1, 178)
+print(hc.get_contrasting())
